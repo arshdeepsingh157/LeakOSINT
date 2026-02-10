@@ -41,7 +41,7 @@ bot.on("message", async (msg) => {
     bot.sendMessage(
       chatId,
       withWatermark(
-        "👋 Hi! Send me a query and I will search LeakOSINT for matching database entries.\n\nYou can paste emails, usernames, phone numbers, domains, wallet IDs, or any free-text keyword — I will check them all."
+        "👋 Hi! Send me a query and I will search LeakOSINT for matching database entries."
       ),
       {
         reply_markup: {
